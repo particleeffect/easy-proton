@@ -2,9 +2,9 @@
 
 ### useage
 ```javascript
-import { createProton } from "easy-proton";
+import { createProton, destroyProton } from "easy-proton";
 
-function createProton({
+createProton({
     rate = 30,
     body,
     life = 1,
@@ -16,5 +16,9 @@ function createProton({
     alpha = [1, 0],
     v = 2,
     angel = [0, 50]
-})
+});
+
+if btn.onclick
+destroyProton();
+
 ```
