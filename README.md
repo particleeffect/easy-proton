@@ -2,6 +2,8 @@
 
 ### useage
 ```javascript
+import { createProton } from "easy-proton";
+
 function createProton({
     rate = 30,
     body,
